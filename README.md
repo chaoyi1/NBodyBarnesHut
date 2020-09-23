@@ -1,7 +1,7 @@
 # NBodyBarnesHut
 
 N-body simulation made using the Barnes-Hut algorithm.
-Barnes-Hut algorithm: Divide 3D space into octants recursively and represent it as an Octree data structure. Insert the bodies into Octree such that each octant contains only 1 or 0 body. Instead of calculating net acceleration with between a body and all others pair-wise, if the bodies are sufficiently far enough, they can all be approximated as a single body. This reduces the time complexity of net force/acceleration calculation from O(N^2) to O(NlogN).
+Barnes-Hut algorithm: Divide 3D space into octants recursively and represent it as an Octree data structure. Insert the bodies into Octree such that each octant contains only 1 or 0 body. Instead of calculating net acceleration with between a body and all others pair-wise, if the bodies are sufficiently far enough, they can all be approximated as a single body. This reduces the time complexity of net force/acceleration calculation from O(N<sup>2</sup>) to O(NlogN).
 
 References:
 
