@@ -1,0 +1,5 @@
+Prototype/
+.vscode/
+.idea/
+output
+NBody_BH_data.txt
